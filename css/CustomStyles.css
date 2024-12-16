@@ -1,0 +1,76 @@
+/* Custom CSS for Scratch Page */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333333; /* Dark text color for readability */
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #0047AB; /* Deep blue background */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  .content {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #ffffff; /* White background for content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  h1, h2, h3 {
+    color: #5296f6; /* Matching deep blue for headers */
+  }
+  
+  .nested-list ol {
+    list-style-type: decimal;
+  }
+  
+  .nested-list ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .anchor-section {
+    background-color: #e8f4f8; /* Light teal for anchor section */
+    border: 1px solid #cce7ef; /* Teal border */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+  }
+  
+  footer {
+    background-color: #0047AB; /* Deep blue background */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 0.9rem;
+  }
+  
+  a {
+    color: #FFD700; /* Gold color for links */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  iframe {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .tableau-embed iframe {
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
